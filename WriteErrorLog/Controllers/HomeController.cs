@@ -21,9 +21,7 @@ namespace WriteErrorLog.Controllers
         {
      
             _errorLogService = errorLogService;
-        }
-
-        
+        }        
 
         public IActionResult Index()
         {
