@@ -32,7 +32,7 @@ namespace WriteErrorLog.Service
                     oStreamWriter.WriteLine(logLine);
                     Status = true;
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
                     Status = false;
                 }
