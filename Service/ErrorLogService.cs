@@ -13,6 +13,7 @@ namespace WriteErrorLog.Service
             _configuration = configuration;
         }
 
+        // Method to write error log to file with timestamp and message in a thread-safe manner
         public bool WriteErrorLog(string LogMessage)
         {
             bool Status = false;
