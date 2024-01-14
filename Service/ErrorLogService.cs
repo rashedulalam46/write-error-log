@@ -48,6 +48,7 @@ namespace WriteErrorLog.Service
             return Status;
         }
 
+// Create log directory if it does not exist
         private bool CheckCreateLogDirectory(string LogPath)
         {
             bool loggingDirectoryExists = false;
