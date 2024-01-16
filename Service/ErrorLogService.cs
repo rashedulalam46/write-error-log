@@ -48,7 +48,7 @@ namespace WriteErrorLog.Service
             return Status;
         }
 
-        // Create log directory if it does not exist
+        // Create log directory if it does not exist  
         private bool CheckCreateLogDirectory(string LogPath)
         {
             bool loggingDirectoryExists = false;
@@ -72,6 +72,7 @@ namespace WriteErrorLog.Service
             return loggingDirectoryExists;
         }
 
+    // Build log line with timestamp and message 
         private string BuildLogLine(DateTime CurrentDateTime, string LogMessage)
         {
             StringBuilder loglineStringBuilder = new StringBuilder();
