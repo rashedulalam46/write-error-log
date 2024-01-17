@@ -72,7 +72,7 @@ namespace WriteErrorLog.Service
             return loggingDirectoryExists;
         }
 
-    // Build log line with timestamp and message 
+       // Build log line with timestamp and message 
         private string BuildLogLine(DateTime CurrentDateTime, string LogMessage)
         {
             StringBuilder loglineStringBuilder = new StringBuilder();
