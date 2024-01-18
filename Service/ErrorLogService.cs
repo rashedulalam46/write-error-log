@@ -82,6 +82,7 @@ namespace WriteErrorLog.Service
             return loglineStringBuilder.ToString();
         }
 
+// Format DateTime for log entry   
         public string LogFileEntryDateTime(DateTime CurrentDateTime)
         {
             return CurrentDateTime.ToString("yyyy-MM-dd HH:mm:ss");
