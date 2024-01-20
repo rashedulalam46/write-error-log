@@ -88,7 +88,7 @@ namespace WriteErrorLog.Service
             return CurrentDateTime.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
-// Format DateTime for log file name
+        // Format DateTime for log file name
         private string LogFileName(DateTime CurrentDateTime)
         {
             return CurrentDateTime.ToString("yyyy-MM-dd");
