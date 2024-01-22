@@ -10,18 +10,18 @@ using WriteErrorLog.Models;
 using WriteErrorLog.Service;
 
 namespace WriteErrorLog.Controllers
-{   
+{
     public class HomeController : Controller
     {
         private readonly ErrorLogService _errorLogService;
 
-        public HomeController(          
+        public HomeController(
            ErrorLogService errorLogService
            )
         {
-     
+
             _errorLogService = errorLogService;
-        }        
+        }
 
         public IActionResult Index()
         {
@@ -48,7 +48,7 @@ namespace WriteErrorLog.Controllers
                 _errorLogService.WriteErrorLog(ex.ToString());
                 return View("Index");
             }
-            
+
         }
     }
 }
