@@ -15,9 +15,7 @@ namespace WriteErrorLog.Controllers
     {
         private readonly ErrorLogService _errorLogService;
 
-        public HomeController(
-           ErrorLogService errorLogService
-           )
+        public HomeController(ErrorLogService errorLogService)
         {
 
             _errorLogService = errorLogService;
