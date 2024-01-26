@@ -17,7 +17,6 @@ namespace WriteErrorLog.Controllers
 
         public HomeController(ErrorLogService errorLogService)
         {
-
             _errorLogService = errorLogService;
         }
 
