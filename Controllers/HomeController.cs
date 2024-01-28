@@ -35,6 +35,7 @@ namespace WriteErrorLog.Controllers
         {
             try
             {
+                // Generate a divide by zero exception
                 var a = 4;
                 var b = 0;
                 var c = a / b;
