@@ -30,6 +30,7 @@ namespace WriteErrorLog.Controllers
             return View();
         }
 
+        //  This action generates a divide by zero exception to demonstrate error logging
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
