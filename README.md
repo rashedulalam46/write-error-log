@@ -1,4 +1,4 @@
-# Write Error Log
+# Write Error Log in a text file
 
 **Write Error Log** is a simple utility built with **C#** and **.NET** that captures application errors and writes them to a text file. Each day, a new log file is created with the filename corresponding to the current date (e.g., `2025-11-04.txt`), making it easy to track and organize errors by day.
 
