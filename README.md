@@ -1,28 +1,25 @@
 # Write Error Log
 
-**Write Error Log** is a simple and effective utility built with **C#** and **ASP.NET Core** to capture and log application errors. It helps developers track exceptions and maintain a record of runtime issues for troubleshooting and debugging purposes.
+**Write Error Log** is a simple utility built with **C#** and **.NET** that captures application errors and writes them to a text file. Each day, a new log file is created with the filename corresponding to the current date (e.g., `2025-11-04.txt`), making it easy to track and organize errors by day.
 
 ## Features
-- Capture and log errors in a structured format
-- Supports logging to files or custom storage
-- Easy to integrate into existing ASP.NET Core applications
-- Simple and lightweight
+- Logs errors automatically to a `.txt` file
+- Creates a new log file for each day using the current date
+- Easy to integrate into any C#/.NET application
+- Lightweight and simple to use
 
 ## Technologies Used
 - **C#**
-- **ASP.NET Core**
-- **HTML / CSS** (for basic views)
-- **JavaScript** (for minor client-side interactions)
+- **.NET Core / .NET 5+**
+- **File System** for storing logs
 
 ## Getting Started
 
 ### Prerequisites
 - [.NET 5.0 SDK or later](https://dotnet.microsoft.com/download/dotnet/5.0)
 - Visual Studio 2019/2022 or Visual Studio Code
-- SQL Server or preferred database for storing logs (if applicable)
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/rashedulalam46/write-error-log.git
-
