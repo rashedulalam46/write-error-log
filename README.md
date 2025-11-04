@@ -23,3 +23,16 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/rashedulalam46/write-error-log.git
+   ```
+### 2. Navigate to the project folder: 
+```
+cd write-error-log
+```
+### 3. Restore dependencies:
+```
+dotnet restore
+```
+### 4. Run the application:
+```
+dotnet run
+```
