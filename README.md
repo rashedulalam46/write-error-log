@@ -36,3 +36,13 @@ dotnet restore
 ```
 dotnet run
 ```
+## Usage
+
+- Include the ErrorLogger class in your project.
+- Call the logging methods whenever an exception occurs.
+- Errors will be appended to a daily log file named with the current date in the designated log folder.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for enhancements or bug fixes.
+
