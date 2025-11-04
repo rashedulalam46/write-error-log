@@ -15,12 +15,12 @@
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 - [.NET 5.0 SDK or later](https://dotnet.microsoft.com/download/dotnet/5.0)
 - Visual Studio 2019/2022 or Visual Studio Code
 
-### Installation
-1. Clone the repository:
+## Installation
+### 1. Clone the repository:
    ```bash
    git clone https://github.com/rashedulalam46/write-error-log.git
    ```
